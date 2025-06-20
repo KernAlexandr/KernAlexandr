@@ -8,12 +8,13 @@
 - 📫 How to reach me: you can write me an email "kernalexandr@gmail.com"
 
 ### My works during my studies
-1. Practical work №1 task №1 'News filtering (REAL,FAKE).ipynb.
-    - The task of determining fake or real news. using the TfidfVectorizer method for vectorizing text data and the PassiveAggressiveClassifier algorithm.
-2. Practical work №1 task №2 'Detection of Parkinson's disease'.ipynb.
-    - Parkinson's Disease Detection Task Using XGBoost Algorithm.
-3. Creative task №1 Titanic survivors.ipynb.
-    - Predicting Titanic Survivors: A Comparison of Several Machine Learning Algorithms.
+1. **Practical work №1 task №1 'News filtering (REAL,FAKE).ipynb**.
+    - *The task of determining fake or real news. using the TfidfVectorizer method for vectorizing text data and the PassiveAggressiveClassifier algorithm.*
+2. **Practical work №1 task №2 'Detection of Parkinson's disease'.ipynb**.
+    - *Parkinson's Disease Detection Task Using XGBoost Algorithm.*
+3. **Creative task №1 Titanic survivors.ipynb**.
+    - *Predicting Titanic Survivors: A Comparison of Several Machine Learning Algorithms.*
+    - 
 <!--
 по мере прохождения курсов, буду добавлять информацию...
 -->
