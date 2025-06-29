@@ -14,7 +14,8 @@
     - *Parkinson's Disease Detection Task Using XGBoost Algorithm.*
 3. **Creative task №1 Titanic survivors.ipynb**.
     - *Predicting Titanic Survivors: A Comparison of Several Machine Learning Algorithms.*
-      
+4. **bot_quiz**.
+    - *Telegram bot "quiz"*      
 <!--
 по мере прохождения курсов, буду добавлять информацию...
 -->
