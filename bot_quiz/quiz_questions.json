@@ -1,0 +1,134 @@
+{
+  "quiz_data": [
+    {
+      "question": "Что такое Python?",
+      "options": [
+        "Язык программирования",
+        "Тип данных",
+        "Музыкальный инструмент",
+        "Змея на английском"
+      ],
+      "correct_option": 0
+    },
+    {
+      "question": "Какой тип данных используется для хранения целых чисел?",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "natural"
+      ],
+      "correct_option": 0
+    },
+    {
+      "question": "Какой тип данных в Python является неизменяемым (immutable)?",
+      "options": [
+        "Список (list)",
+        "Словарь (dict)",
+        "Кортеж (tuple)",
+        "Множество (set)"
+      ],
+      "correct_option": 2
+    },
+    {
+      "question": "Какой оператор используется для возведения в степень?",
+      "options": [
+        "^",
+        "**",
+        "^^",
+        "//"
+      ],
+      "correct_option": 1
+    },
+    {
+      "question": "Какой метод используется для добавления элемента в конец списка?",
+      "options": [
+        "list.insert()",
+        "list.append()",
+        "list.add()",
+        "list.push()"
+      ],
+      "correct_option": 1
+    },
+    {
+      "question": "Как получить список всех ключей словаря my_dict",
+      "options": [
+        "my_dict.items()",
+        "my_dict.keys()",
+        "my_dict.values()",
+        "my_dict.all_keys()"
+      ],
+      "correct_option": 1
+    },
+    {
+      "question": "Что делает оператор yield?",
+      "options": [
+        "Возвращает значение и завершает функцию",
+        "Возвращает значение, но сохраняет состояние функции",
+        "Генерирует случайное число",
+        "Вызывает исключение"
+      ],
+      "correct_option": 1
+    },
+    {
+      "question": "Какой модуль позволяет работать с датой и временем?",
+      "options": [
+        "timeit",
+        "calendar",
+        "os.time",
+        "datetime"
+      ],
+      "correct_option": 3
+    },
+    {
+      "question": "Какой метод вызывается при создании объекта класса?",
+      "options": [
+        "__new__",
+        "__call__",
+        "__init__",
+        "__class__"
+      ],
+      "correct_option": 2
+    },
+    {
+      "question": "Как получить текущую директорию в Python?",
+      "options": [
+        "os.getcwd()",
+        "os.current_dir()",
+        "os.getcwd()",
+        "os.path.cwd()"
+      ],
+      "correct_option": 2
+    },
+    {
+      "question": "Какой ключевой оператор используется для асинхронных функций?",
+      "options": [
+        "wait",
+        "await",
+        "async",
+        "yield"
+      ],
+      "correct_option": 1
+    },
+    {
+      "question": "Как обозначается асинхронная функция?",
+      "options": [
+        "def async foo():",
+        "async def foo():",
+        "async function foo():",
+        "def foo() async:"
+      ],
+      "correct_option": 1
+    },
+    {
+      "question": "Что делает asyncio.sleep(1)?",
+      "options": [
+        "Блокирует весь поток на 1 секунду",
+        "Приостанавливает корутину на 1 секунду без блокировки потока",
+        "Удаляет все задачи на 1 секунду",
+        "Завершает программу через 1 секунду"
+      ],
+      "correct_option": 1
+    }
+  ]
+}
