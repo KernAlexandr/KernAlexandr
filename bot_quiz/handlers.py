@@ -38,14 +38,13 @@ async def right_answer(callback: types.CallbackQuery):
         message_id=callback.message.message_id,
         reply_markup=None
     )
-
+    # Отправляем в чат сообщение, что ответ верный
+    await callback.message.answer("Верно!")
     # Получение текущего вопроса для данного пользователя
     current_question_index = await get_quiz_index(callback.from_user.id)
     # Получаем текущий счет правильных ответов пользователя
     current_score = await get_user_score(callback.from_user.id)
-    # Отправляем в чат сообщение, что ответ верный
-    await callback.message.answer("Верно!")
-
+    
     # Обновление номера текущего вопроса в базе данных
     current_question_index += 1
     # Обновляем счет пользователя
@@ -85,7 +84,7 @@ async def wrong_answer(callback: types.CallbackQuery):
     current_question_index += 1
 
     await update_quiz_index(callback.from_user.id, current_question_index)
-    #await update_user_score(callback.from_user.id, current_score)
+    await update_user_score(callback.from_user.id, current_score)
 
     # Проверяем достигнут ли конец квиза
     if current_question_index < len(quiz_data):
