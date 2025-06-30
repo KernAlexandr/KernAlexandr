@@ -1,36 +1,6 @@
 {
   "quiz_data": [
     {
-      "question": "Что такое Python?",
-      "options": [
-        "Язык программирования",
-        "Тип данных",
-        "Музыкальный инструмент",
-        "Змея на английском"
-      ],
-      "correct_option": 0
-    },
-    {
-      "question": "Какой тип данных используется для хранения целых чисел?",
-      "options": [
-        "int",
-        "float",
-        "str",
-        "natural"
-      ],
-      "correct_option": 0
-    },
-    {
-      "question": "Какой тип данных в Python является неизменяемым (immutable)?",
-      "options": [
-        "Список (list)",
-        "Словарь (dict)",
-        "Кортеж (tuple)",
-        "Множество (set)"
-      ],
-      "correct_option": 2
-    },
-    {
       "question": "Какой оператор используется для возведения в степень?",
       "options": [
         "^",
@@ -93,7 +63,7 @@
     {
       "question": "Как получить текущую директорию в Python?",
       "options": [
-        "os.getcwd()",
+        "os.getcwb()",
         "os.current_dir()",
         "os.getcwd()",
         "os.path.cwd()"

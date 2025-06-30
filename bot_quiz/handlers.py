@@ -85,7 +85,7 @@ async def wrong_answer(callback: types.CallbackQuery):
     current_question_index += 1
 
     await update_quiz_index(callback.from_user.id, current_question_index)
-    await update_user_score(callback.from_user.id, current_score)
+    #await update_user_score(callback.from_user.id, current_score)
 
     # Проверяем достигнут ли конец квиза
     if current_question_index < len(quiz_data):
